@@ -1,0 +1,268 @@
+
+body {
+	background-image: url('../images/bg.jpg');
+}
+
+* {
+	margin: 0px auto;
+	font-family: "Noto Sans TC", 'Microsoft JhengHei', sans-serif;
+}
+
+/* Header page styles */
+.header {
+	font-size: 35px;
+	font-style: normal;
+	font-weight: bolder;
+	width: 1000px;
+	background-image: linear-gradient(gray, lightgray, gray);
+	padding: 20px;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+.header i {
+	font-size: 40px;
+	color: rgb(255, 148, 228);
+	background-color: black;
+	border-radius: 50%;
+	padding: 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+/* Menu page styles */
+.menu table {
+	width: 1000px;
+	background-color: gray;
+	height: 60px;
+	vertical-align: middle;
+}
+.menu td {
+	font-size: 26px;
+	font-weight: bold;
+	border: 2px groove gray;
+	text-align: center;
+	width: 200px;
+	margin: 20px;
+}
+.menu tr {
+	background-image: linear-gradient(aqua, skyblue, aqua)
+}
+.menu td:hover {
+	background-image: linear-gradient(lightpink, hotpink, lightpink);
+}
+
+/* Login page styles */
+.login form {
+	width: 1000px;
+}
+.login fieldset {
+	background-color: lightcyan;
+	border-radius: 0px 0px 15px 15px;
+	border: 2px dotted blue;
+	background-image: url("../images/Ogawa-Neko-1.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: 150px;
+}
+.login_info label {
+	width: 180px;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+
+}
+.login legend {
+	font-size: 16 px;
+	font-weight: bolder;
+}
+.login input {
+	font-size: 20px;
+	vertical-align: middle;
+
+}
+.login_info {
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 2px dotted lightgray;
+}
+.login_info input{
+	width: 380px;
+}
+.submits {
+	text-align: center;
+}
+.submits input {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 20px 5px 20px;
+	margin: 5px;
+}
+
+/* showUserName style */
+.showUser {
+	width: 740px;
+	text-align: right;
+	color: blue;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	height: 25px;
+	font-weight: bold;
+}
+
+/* errorPage */
+.error {
+	width: 1000px;
+	height: 300px;
+	background-color: lightpink;
+	background-image: url("../images/Ogawa-Neko-0.png");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 200px;
+	border-radius: 0px 0px 15px 15px;
+}
+.error p {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+}
+.hurt {
+	width: 1000px;
+	height: 400px;
+	background-color: lightpink;
+	background-image: url("../images/Ogawa-Neko-6.png");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 200px;
+	border-radius: 0px 0px 15px 15px;
+}
+.hurt p {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+
+/* newLotteryTable */
+.newLotTab {
+	border-collapse: collapse;
+}
+.newLotTab tr:nth-child(odd) {
+	background-color: rgba(147, 112, 219, 0.6);
+}
+.newLotTab tr:nth-child(even) {
+	background-color: rgba(30, 144, 255, 0.6);
+}
+.newLotTab td {
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.newLotTab th {
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 16px;
+	font-weight: normal;
+}
+.newLotTab td:nth-child(1) {
+	font-weight: normal;
+	font-size:16px;
+}
+.newLotCreator {
+	margin-bottom: 5px;
+	height: 110px;
+	width: 500px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.newLotCreator input {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 45px;
+}
+#setCount {
+	width: 180px;
+}
+#rangeMsg {
+	font-size: 20px;
+	font-weight: normal;
+}
+#lotteryTable {
+	height: 520px;
+	overflow: auto;
+}
+
+/* MainPage */
+.main_window {
+	width: 1000px;
+	height: 600px;
+	background-color: MistyRose;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+	background-image: url("../images/Ogawa-Neko-4.png");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 250px;
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.7s;
+}
+@keyframes fadeInOpacity { 
+	0% { opacity: 0; }	
+	100%{ opacity: 1;}
+}
+
+
+
+
+
+
+
+/* Logout */
+.Logout {
+	width:1000px;
+	height: 300px;
+	background-image: linear-gradient(AliceBlue, Thistle);
+	border-radius: 0 0 10px 10px;     
+}
+.inner {
+	width:1000px;
+	padding-top:40px;
+	height: 300px;
+	background-image: url("../images/Ogawa-Neko-2.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: 200px;
+}
+
+.inner a{
+	font-size:18px;
+	color:blue;
+	font-weight:bold;
+	text-decoration: none;
+}
+.inner a:visted{
+	color:blue;
+	font-weight:bold;
+}
+.inner a:active{
+	color:white;
+	background-color:black;
+	font-weight:bold;
+}
+
+
+#Product_window {
+	height: 470px;
+}
+#Cart_window {
+	height: 400px;
+}
