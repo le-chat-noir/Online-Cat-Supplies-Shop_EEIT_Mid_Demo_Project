@@ -1,5 +1,5 @@
 # Online-Cat-Supplies-Shop
-Demo project of online cat supplies shop (Servlet+JDBC+Hibernate)
+Demo project of online cat supplies shop (Servlet+JDBC+Hibernate)  
 (Images included were for in classroom demo purpose only and not for other use)
 
 資策會期中小專的 DEMO 作品  
