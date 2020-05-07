@@ -1,6 +1,16 @@
-CREATE DATABASE LeonPower
-GO
 -- 喵星人物資補給站 Servlet + JDBC + Hibernate 版本 SQL
+IF DB_ID('LeonPower') IS NULL
+    BEGIN
+        CREATE DATABASE SCHOOL
+		COLLATE Chinese_Taiwan_Stroke_CI_AS
+        PRINT 'Database LeonPower created.'
+    END
+ELSE
+    BEGIN
+        PRINT 'Database LeonPower already exist.'
+    END
+GO
+
 USE LeonPower
 GO
 
